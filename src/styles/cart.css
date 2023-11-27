@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.rounded {
+    border-radius: 5%;
+}
+
+.bottom-border {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.349);
+}
+
+.cart-header {
+    display: grid;
+    justify-content: center;
+}
+
+.cart-header>h3 {
+    padding: 15px;
+}
+
+.cart-items,
+.cart-header>h3 {
+    width: 80vw;
+    max-width: 1000px;
+    align-self: center;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.cart-items {
+    display: grid;
+    padding-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.item-info {
+    width: 100%;
+    justify-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.item-img-container {
+    background-color: white;
+    padding: 10px;
+}
+
+.item-img {
+    width: 140px;
+    height: 175px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.top-row,
+.bottom-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-row {
+    align-items: flex-end;
+}
+
+.set-quantity {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: space-evenly;
+    gap: 3px;
+}
+
+.set-quantity > *{
+    border: none;
+    background-color: transparent;
+}
+
+.set-quantity > button{
+    cursor: pointer;
+}
